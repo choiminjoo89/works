@@ -18,9 +18,9 @@ p { font-size: 16px; color: #666; line-height: 1.2rem; }
 header { position: absolute; width: 100%; border-bottom: 1px solid rgba(255,255,255,0.3); z-index: 10;}
 header .top-area { padding: 25px 0 16px; text-align: center; }
 header .top-area a { display: inline-block; }
+header .ham-area { position: absolute; left: 0; bottom: 20px; cursor: pointer; }
 
 nav { position: relative; }
-nav .ham-area { position: absolute; left: 0; top: 0; padding: 20px 0; cursor: pointer; }
 nav .gnb { font-size: 0; text-align: center; }
 nav .gnb li { display: inline-block; }
 nav .gnb li a { display: block; padding: 20px 25px; font-size: 16px; font-weight: 500; color: #fff;  }
@@ -120,6 +120,7 @@ footer .footer-bottom p { padding: 10px; font-size: 14px; color: #ccc; }
 
 @media screen and (max-width:1200px) {
   .container { padding: 0 20px; box-sizing: border-box; }
+  header .ham-area { left: 20px; }
 
   .area-banner { padding: 90px 0; }
   .area-banner .list-area li a .text-area h3 { margin-top: 45px; }
